@@ -1,0 +1,5 @@
+{
+  "function": "parse_duration",
+  "description": "Parse a duration string like '1h30m', '45s', '2h', '90m15s' into total seconds (int). Units: h, m, s. Units may appear at most once, in h/m/s order. Whitespace around the string is allowed. Raise ValueError for anything else, including empty strings.",
+  "timeout": 1.0
+}

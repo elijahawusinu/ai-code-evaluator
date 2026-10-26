@@ -1,0 +1,5 @@
+{
+  "function": "two_sum",
+  "description": "Given a list of integers and a target, return the indices [i, j] (i < j) of the two numbers that add to target. Raise ValueError if no pair exists. The same element may not be used twice.",
+  "timeout": 2.0
+}

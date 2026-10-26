@@ -1,0 +1,11 @@
+[
+  {"name": "hours and minutes", "input": ["1h30m"], "expected": 5400},
+  {"name": "seconds only", "input": ["45s"], "expected": 45},
+  {"name": "all three", "input": ["2h5m10s"], "expected": 7510},
+  {"name": "surrounding whitespace", "input": ["  10m "], "expected": 600},
+  {"name": "zero", "input": ["0s"], "expected": 0},
+  {"name": "empty string raises", "input": [""], "raises": "ValueError"},
+  {"name": "unknown unit raises", "input": ["5d"], "raises": "ValueError"},
+  {"name": "wrong order raises", "input": ["30m1h"], "raises": "ValueError"},
+  {"name": "bare number raises", "input": ["30"], "raises": "ValueError"}
+]

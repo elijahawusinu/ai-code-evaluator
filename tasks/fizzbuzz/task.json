@@ -1,0 +1,5 @@
+{
+  "function": "fizzbuzz",
+  "description": "Return a list of strings for 1..n: multiples of 3 -> 'Fizz', of 5 -> 'Buzz', of both -> 'FizzBuzz', otherwise the number as a string. n < 1 should return an empty list.",
+  "timeout": 2.0
+}
